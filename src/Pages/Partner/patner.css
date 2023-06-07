@@ -1,0 +1,105 @@
+.patrner-form-container {
+    margin: auto;
+    padding: 50px;
+}
+
+.partner-form-title {
+    text-align: center;
+}
+
+.partner-form-title h4 {
+    color: #00854a;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: CenturyGhothic;
+    margin: 15px 0;
+}
+
+.partner-form {
+    margin: 20px auto;
+}
+
+.patrner-form-fullWidth label,
+.patrner-form-halWidth label {
+    color: #010101;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Roboto;
+    margin-top: 25px;
+}
+
+.patrner-form-fullWidth input,
+.patrner-form-halWidth input {
+    color: #373737b1;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Roboto;
+    border: 1px solid #010101a0;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+
+.patrner-form-fullWidth input {
+    width: 100%;
+}
+
+.patrner-form-halWidth input {
+    width: 45%;
+}
+
+.patrner-form-fullWidth input:focus,
+.patrner-form-halWidth input:focus {
+    border: 1px solid #555;
+}
+
+.patrner-form-fullWidth span,
+.patrner-form-halWidth span {
+    font-size: 15px;
+    font-family: Roboto;
+}
+
+.patrner-form-phone div {
+    width: 45%;
+    float: left;
+}
+
+.groupInput {
+    display: flex;
+}
+
+.terms {
+    margin: 20px 0;
+}
+
+.terms span {
+    color: #010101;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Roboto;
+    margin-top: 25px;
+}
+
+.terms input[type=checkbox] {
+    margin-right: 10px;
+}
+
+.partner-form input[type=submit] {
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    background-color: #00854a;
+    border-radius: 5px;
+}
+
+.partner-form input[type=submit]:hover {
+    background-color: #025f35;
+}
+
+@media screen and (max-width: 760px) {
+    .getInvolve-hero-box h1 {
+        margin: 0 10% !important;
+        font-size: 50px !important;
+        text-align: start;
+    }
+}

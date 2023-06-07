@@ -1,0 +1,32 @@
+.team-container {
+    border: 1px solid lightgray;
+    padding: 20px 0;
+}
+
+.team-container img {
+    width: 100%;
+}
+
+.team-text-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.team-text-box h4 {
+    font-family: Roboto;
+    margin-bottom: 5px;
+}
+
+.team-designation {
+    color: rgba(85, 84, 84, 0.724);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 760px) {
+    .team-text-box {
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,44 @@
+.job-container {
+    margin: 30px auto;
+}
+
+.job-box {
+    width: 33.33%;
+    display: flex;
+    padding: 35px;
+    border: 0.5px solid lightgray;
+}
+
+.job-box img {
+    width: 50px;
+    border: 1px solid lightgray;
+    margin-right: 15px;
+}
+
+.job-box h5 {
+    color: #00854a;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Roboto;
+}
+
+.job-box p {
+    color: #010101;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Roboto;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 760px) {
+    .job-box {
+        width: 100%;
+    }
+}

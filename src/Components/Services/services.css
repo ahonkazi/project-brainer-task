@@ -1,0 +1,56 @@
+#service {
+    background-color: #fffce9;
+    padding: 30px 0;
+}
+
+.service-box {
+    margin-bottom: 10px;
+}
+
+.service-box .col {
+    border: 1px solid #050806;
+    text-align: center;
+}
+
+.service-box .col:hover {
+    cursor: pointer;
+    background-color: #f9f0b1;
+}
+
+.service-box .col img {
+    margin: 10px 0;
+    height: 60px;
+}
+
+.service-box .col h6 {
+    color: #050806;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.service-box-1 .col,
+.service-box-2 .col {
+    margin-left: -1px;
+}
+
+.service-box-2 {
+    margin-top: -1px;
+}
+
+@media screen and (max-width: 760px) {
+    .service-box .row {
+        flex-direction: column;
+    }
+
+    .service-box .col {
+        margin-top: -1px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .service-box .col {
+        width: 90%;
+        margin: 0 5%;
+        margin-top: -1px;
+    }
+}

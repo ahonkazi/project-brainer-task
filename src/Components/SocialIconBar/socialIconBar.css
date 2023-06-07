@@ -1,0 +1,27 @@
+#socialIconBar {
+    position: fixed;
+    top: 40%;
+    z-index: 50;
+}
+
+.socialIconBar {
+    margin: 0;
+    padding: 15px 8px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+.socialIconBar li {
+    margin: 5px;
+    list-style-type: none;
+}
+
+.socialIconBar a {
+    color: black;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.socialIconBar a:hover {
+    color: #F04B51;
+}

@@ -1,0 +1,45 @@
+.gallery-container .col-md-8 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-container img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #050806;
+    border-radius: 15px;
+}
+
+.gallery-container img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 400ms;
+}
+
+.img32 {
+    width: 30%;
+    height: 150px;
+}
+
+.img33 {
+    width: 100%;
+    height: 235px;
+}
+
+.img22 {
+    width: 20%;
+    height: 150px;
+}
+
+.img42 {
+    width: 50%;
+    height: 150px;
+}
+
+@media screen and (max-width: 480px) {
+    .gallery-container {
+        margin: 0 10px;
+    }
+}

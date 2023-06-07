@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Verdana;
+  src: url(./fonts/Verdana.ttf);
+}
+
+@font-face {
+  font-family: fedra-serif-a-pro-book;
+  src: url(./fonts/FedraSerifPro\ A\ Book.otf);
+}
+
+@font-face {
+  font-family: Geomatrix;
+  src: url(./fonts/GeomatrixBold-6YBZ1.ttf);
+}
+
+@font-face {
+  font-family: CenturyGhothic;
+  src: url(./fonts/Century\ Gothic.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Roboto, verdana, fedra-serif-a-pro-book, CenturyGhothic;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

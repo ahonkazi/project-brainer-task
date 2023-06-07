@@ -1,0 +1,134 @@
+.portfolio-heading {
+    margin-bottom: 15px;
+}
+
+.portfolio-heading .col-md-6 {
+    background-color: #00854a;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-heading .col-md-6:hover {
+    cursor: pointer;
+    background-color: #00854972;
+}
+
+.portfolio-heading .col-md-6:hover select {
+    background-color: #00854972;
+}
+
+.portfolio-heading .col-md-6 h5,
+.portfolio-heading .col-md-6 select {
+    margin: 5px 0;
+}
+
+.portfolio-heading .col-md-6 h5 {
+    color: white;
+}
+
+.portfolio-heading .col-md-6 select {
+    color: white;
+    border: none;
+    background-color: #00854a;
+}
+
+.portfolio-box a {
+    width: 33.33%;
+    border: 1px solid #010101;
+    padding: 0;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+
+.portfolio-box img {
+    width: 100%;
+}
+
+.portfolio-box h6 {
+    color: #00854a;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin: 5px;
+    font-family: Roboto;
+}
+
+.portfolio-box a:hover h6 {
+    text-decoration: underline;
+}
+
+
+/* PortfolioDetails  */
+
+.portfolio-details-container {
+    margin-bottom: 30px;
+}
+
+.portfolio-details-container .col-md-7 {
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+.portfolio-details-container img {
+    width: 100%;
+}
+
+.portfolio-details-container .col-md-4 h4 {
+    color: #00854a;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: CenturyGhothic;
+    margin: 0;
+}
+
+.portfolio-details-container .col-md-4 hr {
+    width: 90px;
+    margin: 10px 0;
+    height: 1px;
+    border-top: 2px solid black;
+}
+
+.portfolio-collapseBox {
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.portfolio-collapseBox:hover {
+    cursor: pointer;
+}
+
+.portfolio-collapseBox i {
+    margin-right: 10px;
+}
+
+.portfolio-collapseBox span {
+    color: #231f20;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: fedra-serif-a-pro-book;
+}
+
+.portfolio-collapse-text {
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+    background-color: #ebebec;
+    font-weight: 400;
+    font-family: fedra-serif-a-pro-book;
+}
+
+@media screen and (max-width: 760px) {
+    .portfolio-details-container .col-md-4 {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .portfolio-box {
+        margin: 0 10px;
+    }
+}

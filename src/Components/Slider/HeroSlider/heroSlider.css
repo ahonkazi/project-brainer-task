@@ -1,0 +1,45 @@
+.heroSlide-1,
+.heroSlide-2,
+.heroSlide-3,
+.heroSlide-4 {
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.heroSlide-4 {
+    display: flex;
+    align-items: center;
+}
+
+.heroSlide-4 h3 {
+    padding: 20px;
+    margin-left: 50px;
+    background-color: rgba(255, 255, 255, 0.375);
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.heroSlider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.heroSlider .react-multi-carousel-dot-list {
+    background-color: yellow;
+    position: inherit;
+}
+
+@media screen and (max-width: 480px) {
+
+    .heroSlider,
+    .heroSlide-1,
+    .heroSlide-2,
+    .heroSlide-3,
+    .heroSlide-4 {
+        height: 200px !important;
+    }
+}

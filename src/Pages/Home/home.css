@@ -1,0 +1,117 @@
+.about-text {
+    font-family: fedra-serif-a-pro-book;
+    display: block;
+}
+
+.vision-btn {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.vision-text {
+    text-align: start;
+    border: 1px solid #050806;
+    padding: 20px;
+    margin-top: -15px;
+}
+
+.about-img {
+    box-sizing: border-box;
+    padding: 20px;
+    border-left: 15px solid #f6eb16;
+    border-right: 15px solid #f6eb16;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.about-img img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 760px) {
+    .about-img {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-text {
+        padding: 15px;
+        text-align: justify;
+    }
+
+    .vision-text {
+        margin: -15px 10px 0px 10px;
+    }
+}
+
+
+
+/* portfolio section  */
+
+.portfolio-container .col {
+    border: 1px solid #050806;
+    background-image: linear-gradient(0deg, #2323234f, #2323234f),url('../../images/Portfolio_Page/Portfolio_Imgage-dummy.png');
+    background-size: cover;
+    height: 144px;
+    margin: 15px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px;
+}
+
+.portfolio-container .col h6 {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media screen and (max-width: 760px) {
+    .portfolio-container .row {
+        flex-direction: column;
+    }
+
+    .portfolio-container .col {
+        padding: 140px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .portfolio-container .col {
+        width: 90%;
+        margin: 10px 5%;
+        background-position: center;
+    }
+}
+
+/* artcom Team  */
+
+#artcomTeam .hr-bar {
+    width: 200px;
+}
+
+/* portfolio section  */
+
+#clients-section {
+    background-color: #FFFCE9;
+}
+
+#clients-section .hr-bar {
+    width: 155px;
+}
+
+/* Credential section  */
+
+#credential {
+    background-color: #FFFCE9;
+}
+
+#credential .hr-bar {
+    width: 165px;
+}

@@ -1,0 +1,147 @@
+.getInvolve-hero-box {
+    color: white;
+    background-color: #00854a;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.getInvolve-hero-box h1 {
+    font-size: 80px;
+    margin: 0px;
+    padding: 0px;
+    font-family: Geomatrix;
+    font-weight: 700;
+}
+
+.getInvolve-hero-box span {
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+.getInvolve-hero-box a {
+    color: #f6eb16;
+    text-decoration: none;
+}
+
+.getInvolve-hero-box a:hover {
+    color: yellowgreen;
+}
+
+#getInvolved .section-title h3 {
+    color: #010101;
+}
+
+#getInvolved .section-title i {
+    color: #010101;
+}
+
+#getInvolved .hr-bar {
+    width: 400px;
+}
+
+.card-container {
+    margin: 15px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.single-card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 20px;
+}
+
+.single-card img {
+    width: 100px;
+    height: 70px;
+}
+
+.single-card h4 {
+    color: #00854a;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: CenturyGhothic;
+    margin: 15px 0;
+}
+
+.single-card span {
+    color: #231f20;
+    font-size: 15px;
+    font-family: fedra-serif-a-pro-book;
+}
+
+.single-card a {
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    font-family: CenturyGhothic;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    background-color: #00854a;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.single-card a:hover {
+    background-color: #004e2b;
+}
+
+.collapse-container .col-md-8 {
+    margin: 20px auto;
+}
+
+.collapse-box {
+    margin: 20px auto;
+    border: 1px solid lightgray;
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collapse-box:hover {
+    cursor: pointer;
+}
+
+.collapse-box h4 {
+    color: #010101;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: CenturyGhothic;
+    margin:5px 0;
+}
+
+.collapse-box i {
+    font-size: 20px;
+}
+
+.collapse-text {
+    border: 1px solid lightgray;
+    padding: 15px;
+    font-family: CenturyGhothic;
+    margin-top: -21px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #ebebec;
+}
+
+@media screen and (max-width: 480px) {
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card-container .single-card {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
